@@ -91,3 +91,31 @@ body {
     margin-bottom: 85px;
     max-width: 750px;
 }
+
+
+/* Fond */
+
+
+.fond__info {
+    display: flex;
+    
+}
+.fond__title.title{
+    text-align: center;
+    font-size: 43px;
+    font-weight: 500;
+    margin-bottom: 64px;
+}
+.fond__title span {
+    color: #CB4E5D;
+}
+.fond__paragrath {
+    margin-left: 18px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.fond__item-text {
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 19px;
+}

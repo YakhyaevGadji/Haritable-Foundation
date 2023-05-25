@@ -1,0 +1,46 @@
+@import 'reset.css';
+@import 'media.css';
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.page {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+
+
+/*Header*/
+
+.header {
+    padding: 25px 0 50px 0;
+}
+.header__list {
+    display: flex;
+    align-items: center;
+}
+.header__item {
+    margin-right: 70px;
+    font-weight: 500;
+    font-size: 17px;
+    text-decoration: none;
+    color: #000;
+}
+.header__item:hover {
+    text-decoration: underline;
+}
+.header__link {
+    font-weight: 600;
+    font-size: 15px;
+    color: #CB4E5D;
+    text-decoration: none;
+    padding: 13px 35px;
+    border: 1px solid #CB4E5D;
+    border-radius: 7px;
+}
+.header__link:hover {
+    background-color: #C85263;
+    transition: .2s;
+    color: #fff;
+}

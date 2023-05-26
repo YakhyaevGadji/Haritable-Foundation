@@ -160,3 +160,29 @@ body {
     max-height: 270px;
     margin: auto;
 }
+
+
+/* News */
+
+
+.news__list {
+    display: flex;
+    justify-content: space-between;
+}
+.news__item {
+    border: 1px solid #F1D3D7;
+    max-width: 369px;
+}
+.news__info {
+    padding: 14px 15px 22px 15px;
+}
+.news__date {
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 15px;
+    display: block;
+}
+.news__paragraph {
+    font-weight: 500;
+    font-size: 17px;
+}

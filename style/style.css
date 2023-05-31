@@ -165,6 +165,9 @@ body {
 /* News */
 
 
+.news {
+    margin-bottom: 83px;
+}
 .news__list {
     display: flex;
     justify-content: space-between;

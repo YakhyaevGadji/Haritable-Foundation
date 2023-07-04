@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../style/style.css" />
     <title>Document</title>
   </head>
@@ -21,7 +24,7 @@
           <li><a class="header__item" href="">Контакты</a></li>
           <li><a class="header__link" href="">Хочу помочь</a></li>
         </ul>
-      </nav>
+        </nav>
     </header>
     <main class="content">
         <section class="breadcrumb">
@@ -31,8 +34,14 @@
             </ul>
         </section>
         <section class="about">
-          <img src="../images/about-img/about-photo.jpg" alt="Команда">
-          <h1 class="intro__title">Фонд <span>«Во благо вместе»</span> помогает семьям, где есть ребенок с ограниченными возможностями.</h1>
+          <div class="about__text">
+            <h1 class="about__title">Фонд <span>«Во благо вместе»</span> помогает семьям, где есть ребенок с ограниченными возможностями.</h1>
+            <h3 class="about__subtitle">Фонд «Во благо вместе» живой, наполненный радостью жизни круг друзей. <span>Миссия фонда<br> - Делать жизнь особенных семей счастливой.</span></h3>
+            <p class="about__info">Идея создать фонд возникла спустя пять лет волонтерской помощи. Наша группа волонтеров начинали с малого:<br> - собирали одежду для тех, кому она была нужна<br> - организовывали сборы денежных средств на лечение для тех людей, кому отказали фонды<br> - курировали детский дом<br> - помогали дому престарелых и другим. Всё шло от искреннего желания помогать людям, улучшать мир вокруг.</p>
+            <p class="about__infosubtitle">Постепенно рамки помощи вышли за пределы группы энтузиастов. Начали понимать, что потребность в помощи больше, чем мы сможем дать в том формате, котором были. Чтобы охват стал шире, нам потребовалось: <br>- больше помощников <br>- официальный статус, для выхода на следующий уровень организации, как самой помощи, так и тем, чем хотим помогать <br>- упростить возможность поделиться своим желанием помогать другим, тем, кто готов финансово поддержать нас</p>
+            <p class="about__know">Находясь в живом процессе общения с людьми, которым мы помогаем, смогли подстроиться и придать уже профессиональную форму нашим душевным порывам улучшать мир. Основное направление деятельности - семьи с детьми с ОВЗ. Очень часто маме одной приходится справляться со всей спецификой жизни такой семьи. Здесь у нас точное понимание что да как, потому что сами имеем детей с ОВЗ.</p>
+          </div>
+          <img class="about__img" src="../images/about-img/about-photo.jpg" alt="Команда">
         </section>
     </main>
     <footer class="footer">
@@ -42,7 +51,7 @@
         </li>
         <li class="footer__item">
           <ul class="footer__list">
-            <li><a class="footer__list-item footer__list-item__active" href="">О Нас</a></li>
+            <li><a class="footer__list-item" href="">О Нас</a></li>
             <li><a class="footer__list-item" href="">Направления</a></li>
             <li><a class="footer__list-item" href="">История</a></li>
           </ul>
@@ -57,11 +66,7 @@
         <li class="footer__item">
           <ul class="footer__list">
             <li class="footer__social-item">
-              <img
-                class="footer__social-icon"
-                src="../images/social-icons/footer-website.png"
-                alt="сайт"
-              />
+              <img class="footer__social-icon" src="../images/social-icons/footer-website.png" alt="сайт"/>
               voblago.ru
             </li>
             <li class="footer__social-item">
@@ -75,9 +80,8 @@
             <li class="footer__social-icons">
               <img src="../images/social-icons/footer-instagram.png" alt="инстаграм"/>
               <img src="../images/social-icons/footer-vk.png" alt="вк" />
-              <img src="../images/social-icons/footer-telegram.png"alt="телеграм"/>
-              <img src="../images/social-icons/footer-social.png"lt="социал"/>
-            </li>
+              <img src="../images/social-icons/footer-telegram.png" alt="телеграм"/>
+              <img src="../images/social-icons/footer-social.png" alt="социал"/></li>
           </ul>
         </li>
       </ul>
